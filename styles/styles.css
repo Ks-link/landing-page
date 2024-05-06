@@ -23,7 +23,12 @@
 /* Typography
 --------------------------------------------- */
 body {
-	
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #FAFAFA;
+	background-color: #000000;
 }
 
 h1,
@@ -32,57 +37,32 @@ h3,
 h4,
 h5,
 h6 {
-	
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p {
-	
+h1 {
+	color: #FAFAFA;
+	font-style: italic;
+	font-size: 4rem;
+	font-weight: 600;
 }
-
 
 /* Elements
 --------------------------------------------- */
-ul {
-	
-}
 
-ol {
-	
-}
 
-dl {
-	
-}
-
-figure {
-	
-}
-
-table {
-	
-}
 
 /* Links
 --------------------------------------------- */
-a {
-	
-}
+a {}
 
-a:visited {
-	
-}
+a:visited {}
 
-a:hover {
-	
-}
+a:hover {}
 
-a:focus {
-	
-}
+a:focus {}
 
-a:active {
-	
-}
+a:active {}
 
 
 /*--------------------------------------------------------------
@@ -101,6 +81,14 @@ a:active {
 
 /* Main
 --------------------------------------------- */
+section#title {
+	text-align: center;
+	max-width: 50%;
+	margin: 0 auto;
+	padding: 13rem 0;
+	line-height: 0.3;
+}
+
 
 
 /* Footer
