@@ -84,8 +84,9 @@ a:active {}
 section#title {
 	/* background-image: url(../media/title-background.jpg); */
 	text-align: center;
-	padding: 13rem;
+	/* padding: 13rem;  */
 	line-height: 0.3;
+	min-height: 100vh;
 }
 
 .projects h2 {
