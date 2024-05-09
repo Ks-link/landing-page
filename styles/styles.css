@@ -20,6 +20,10 @@
 # Base
 --------------------------------------------------------------*/
 
+html {
+	scroll-behavior: smooth;
+}
+
 /* Typography
 --------------------------------------------- */
 body {
@@ -192,15 +196,38 @@ header a {
 	margin-bottom: 0.7rem;
 }
 
-@media (min-width: 37.5em) {}
+@media (min-width: 37.5em) {
+	.project-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 3rem;
+		margin: 5rem auto;
+		max-width: 100rem;
+		width: 75%;
+	}
+
+	.project {
+		margin: 0;
+	}
+}
+
 
 /* About Me Section
 --------------------------------------------- */
 
-
 .about-me {
-	margin: 1rem;
+	margin: 10rem auto 3rem auto;
+	padding: 3rem;
 }
+
+@media (min-width: 37.5em) {
+	.about-me {
+		max-width: 50rem;
+		width: 75%;
+	}
+}
+
 
 
 
