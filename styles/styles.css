@@ -28,7 +28,7 @@ html {
 --------------------------------------------- */
 body {
 	font-family: 'Montserrat', Georgia, 'Times New Roman', Times, serif;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-weight: 600;
 	line-height: 1.5;
 	color: #fafafa;
@@ -128,6 +128,7 @@ header a {
 }
 
 .title-caption {
+	font-size: 1.1rem;
 	max-width: 12rem;
 	margin: 0 auto;
 }
@@ -234,9 +235,18 @@ header a {
 --------------------------------------------- */
 
 footer {
-	color: #fafafa;
-	background-color: #F07900;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #332F2B;
+	background-color: #fafafa;
 	height: 4rem;
+}
 
+footer p {
+	font-size: .75rem;
+	font-weight: 600;
+	line-height: 1.5;
+	max-width: 90%;
+	text-align: center;
 }
