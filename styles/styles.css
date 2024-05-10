@@ -230,7 +230,13 @@ header a {
 
 
 
-
-
 /* Footer
 --------------------------------------------- */
+
+footer {
+	color: #fafafa;
+	background-color: #F07900;
+	text-align: center;
+	height: 4rem;
+
+}
