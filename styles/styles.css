@@ -170,7 +170,7 @@ header a {
 .project {
 	margin: 5rem auto;
 	padding: 2rem;
-	max-width: 17rem;
+	max-width: 16rem;
 	border: solid #F07900;
 	border-radius: 2rem;
 }
@@ -187,7 +187,7 @@ header a {
 	position: relative;
 }
 
-.icon {
+.icon1 {
 	width: 75%;
 	height: 75%;
 	position: absolute;
@@ -196,7 +196,14 @@ header a {
 	transform: translate(-50%, -50%);
 }
 
-
+.icon2 {
+	width: 75%;
+	height: 75%;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
 .project-title {
 	text-align: center;
