@@ -168,6 +168,7 @@ header a {
 }
 
 .project {
+	display: block;
 	margin: 5rem auto;
 	padding: 2rem;
 	max-width: 16rem;
@@ -175,7 +176,7 @@ header a {
 	border-radius: 2rem;
 }
 
-.project-link {
+.icon-background {
 	display: block;
 	background-color: #F07900;
 	padding: 1rem;
