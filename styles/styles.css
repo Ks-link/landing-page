@@ -181,13 +181,12 @@ header a {
 	padding: 1rem;
 	margin: 0 auto;
 	border-radius: 50%;
-	text-align: center;
 	width: 12rem;
 	height: 12rem;
 	position: relative;
 }
 
-.icon1 {
+.icon-country {
 	width: 75%;
 	height: 75%;
 	position: absolute;
@@ -196,7 +195,7 @@ header a {
 	transform: translate(-50%, -50%);
 }
 
-.icon2 {
+.icon-game {
 	width: 75%;
 	height: 75%;
 	position: absolute;
@@ -204,6 +203,34 @@ header a {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
+.icon-movie {
+	width: 65%;
+	height: 65%;
+	position: absolute;
+	top: 50%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+}
+
+.icon-money {
+	width: 75%;
+	height: 75%;
+	position: absolute;
+	top: 50%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+}
+
+.icon-wp {
+	width: 60%;
+	height: 60%;
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 
 .project-title {
 	text-align: center;
