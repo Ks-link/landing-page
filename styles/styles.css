@@ -170,9 +170,9 @@ header a {
 .project {
 	display: block;
 	margin: 5rem auto;
-	padding: 2rem;
-	max-width: 16rem;
-	border: solid #F07900;
+	padding: 2.5rem 1rem 1.5rem;
+	max-width: 14rem;
+	border: .4rem solid #F07900;
 	border-radius: 2rem;
 }
 
@@ -182,9 +182,62 @@ header a {
 	padding: 1rem;
 	margin: 0 auto;
 	border-radius: 50%;
-	width: 12rem;
-	height: 12rem;
+	width: 8rem;
+	height: 8rem;
 	position: relative;
+}
+
+
+/* Projects Hover Behavior
+--------------------------------------------- */
+
+.project:hover {
+	background-color: #F07900;
+
+	.icon-background {
+		background-color: #332F2B;
+	}
+
+	.icon-country path {
+		fill: #F07900;
+	}
+
+	.icon-game path {
+		fill: #F07900;
+	}
+
+	.icon-movie path {
+		fill: #F07900;
+	}
+
+	.icon-money path {
+		fill: #F07900;
+	}
+
+	.icon-wp path {
+		fill: #F07900;
+	}
+
+	.project-title {
+		color: #332F2B;
+		font-weight: 800;
+	}
+}
+
+
+/* Project Tile Re-size
+--------------------------------------------- */
+
+@media (min-width: 37.5em) {
+	.icon-background {
+		width: 12rem;
+		height: 12rem;
+	}
+
+	.project {
+		padding: 2rem;
+		max-width: 18rem;
+	}
 }
 
 .icon-country {
