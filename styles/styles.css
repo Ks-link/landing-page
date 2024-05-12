@@ -95,6 +95,10 @@ header ul {
 	padding: 0;
 }
 
+header li {
+	list-style-type: none;
+}
+
 header a {
 	font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
 	font-style: italic;
@@ -159,9 +163,9 @@ header a {
 	text-align: center;
 	background-color: #332F2B;
 	margin: 2rem auto;
-	padding-top: 5rem;
+	padding-top: 3.5rem;
 	position: sticky;
-	top: .5rem;
+	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 99;
