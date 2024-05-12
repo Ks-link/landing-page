@@ -161,7 +161,7 @@ header a {
 	margin: 2rem auto;
 	padding-top: 5rem;
 	position: sticky;
-	top: 0;
+	top: .5rem;
 	left: 0;
 	right: 0;
 	z-index: 99;
@@ -191,38 +191,44 @@ header a {
 /* Projects Hover Behavior
 --------------------------------------------- */
 
-.project:hover {
-	background-color: #F07900;
+/* 
 
-	.icon-background {
-		background-color: #332F2B;
-	}
+@media (min-width: 37.5rem) {
+	.project:hover {
+		background-color: #F07900;
 
-	.icon-country path {
-		fill: #F07900;
-	}
+		.icon-background {
+			background-color: #332F2B;
+		}
 
-	.icon-game path {
-		fill: #F07900;
-	}
+		.icon-country path {
+			fill: #F07900;
+		}
 
-	.icon-movie path {
-		fill: #F07900;
-	}
+		.icon-game path {
+			fill: #F07900;
+		}
 
-	.icon-money path {
-		fill: #F07900;
-	}
+		.icon-movie path {
+			fill: #F07900;
+		}
 
-	.icon-wp path {
-		fill: #F07900;
-	}
+		.icon-money path {
+			fill: #F07900;
+		}
 
-	.project-title {
-		color: #332F2B;
-		font-weight: 800;
+		.icon-wp path {
+			fill: #F07900;
+		}
+
+		.project-title {
+			color: #332F2B;
+			font-weight: 800;
+		}
 	}
-}
+} 
+
+*/
 
 
 /* Project Tile Re-size
