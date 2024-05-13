@@ -44,11 +44,11 @@ h6 {
 	font-style: italic;
 	font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
 	font-style: italic;
-	color: #F07900;
+	color: #00D2FA;
 }
 
 h1 {
-	color: #F07900;
+	color: #00D2FA;
 	font-size: 2.8rem;
 	font-weight: 750;
 	margin: 10px;
@@ -71,7 +71,7 @@ a:hover {
 }
 
 a:focus {
-	text-decoration: none;
+	border: .4rem solid #fafafa;
 }
 
 a:active {
@@ -84,7 +84,7 @@ header {
 	position: sticky;
 	top: 0;
 	z-index: 999;
-	background-color: #F07900;
+	background-color: #00D2FA;
 	padding: 1rem 0;
 }
 
@@ -128,7 +128,7 @@ header a {
 
 .title {
 	text-align: center;
-	margin: 10rem 1rem;
+	margin: 12rem 1rem;
 }
 
 .title-caption {
@@ -171,18 +171,23 @@ header a {
 	z-index: 99;
 }
 
+.projects h3 {
+	color: #fafafa;
+}
+
 .project {
 	display: block;
 	margin: 5rem auto;
 	padding: 2.5rem 1rem 1.5rem;
 	max-width: 14rem;
-	border: .4rem solid #F07900;
+	border: .4rem solid #fafafa;
 	border-radius: 2rem;
+	background-color: #332f2b;
 }
 
 .icon-background {
 	display: block;
-	background-color: #F07900;
+	background-color: #fafafa;
 	padding: 1rem;
 	margin: 0 auto;
 	border-radius: 50%;
@@ -190,49 +195,6 @@ header a {
 	height: 8rem;
 	position: relative;
 }
-
-
-/* Projects Hover Behavior
---------------------------------------------- */
-
-/* 
-
-@media (min-width: 37.5rem) {
-	.project:hover {
-		background-color: #F07900;
-
-		.icon-background {
-			background-color: #332F2B;
-		}
-
-		.icon-country path {
-			fill: #F07900;
-		}
-
-		.icon-game path {
-			fill: #F07900;
-		}
-
-		.icon-movie path {
-			fill: #F07900;
-		}
-
-		.icon-money path {
-			fill: #F07900;
-		}
-
-		.icon-wp path {
-			fill: #F07900;
-		}
-
-		.project-title {
-			color: #332F2B;
-			font-weight: 800;
-		}
-	}
-} 
-
-*/
 
 
 /* Project Tile Re-size
@@ -323,13 +285,45 @@ header a {
 
 .about-me {
 	margin: 10rem auto 3rem auto;
-	padding: 3rem;
+	padding: 2rem;
 }
 
-@media (min-width: 37.5em) {
-	.about-me {
-		max-width: 50rem;
+.about-me h2 {
+	text-align: center;
+}
+
+.me-img {
+	display: block;
+	border-radius: 50%;
+	width: 13rem;
+	height: 13rem;
+	border: .4rem solid #00D2FA;
+	margin: 2rem auto;
+}
+
+@media (min-width: 50em) {
+	.about-me h2 {
+		font-size: 2rem;
+		text-align: left;
+		max-width: 45rem;
 		width: 75%;
+		margin: 0 auto;
+	}
+
+	.me-content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 45rem;
+		width: 75%;
+		gap: 4rem;
+		margin: 0 auto;
+	}
+
+	.me-img {
+		order: 2;
+		width: 16rem;
+		height: 16rem;
 	}
 }
 
@@ -343,7 +337,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	color: #332F2B;
-	background-color: #F07900;
+	background-color: #00D2FA;
 	height: 4rem;
 }
 
