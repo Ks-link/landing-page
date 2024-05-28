@@ -191,8 +191,8 @@ header a {
 	padding: 1rem;
 	margin: 0 auto;
 	border-radius: 50%;
-	width: 8rem;
-	height: 8rem;
+	width: 11rem;
+	height: 11rem;
 	position: relative;
 }
 
@@ -202,13 +202,13 @@ header a {
 
 @media (min-width: 37.5em) {
 	.icon-background {
-		width: 12rem;
-		height: 12rem;
+		width: 11rem;
+		height: 11rem;
 	}
 
 	.project {
 		padding: 2rem;
-		width: 18rem;
+		width: 30rem;
 	}
 }
 
@@ -271,7 +271,7 @@ header a {
 		gap: 3rem;
 		margin: 5rem auto;
 		max-width: 100rem;
-		width: 75%;
+		width: 85%;
 	}
 
 	.project {
