@@ -43,12 +43,11 @@ h5,
 h6 {
 	font-style: italic;
 	font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
-	font-style: italic;
-	color: #00D2FA;
+	color: #F57E00;
 }
 
 h1 {
-	color: #00D2FA;
+	color: #F57E00;
 	font-size: 2.8rem;
 	font-weight: 750;
 	margin: 10px;
@@ -84,7 +83,7 @@ header {
 	position: sticky;
 	top: 0;
 	z-index: 999;
-	background-color: #00D2FA;
+	background-color: #F57E00;
 	padding: 1rem 0;
 }
 
@@ -177,9 +176,10 @@ header a {
 
 .project {
 	display: block;
-	margin: 5rem auto;
+	margin: 3rem auto;
 	padding: 2.5rem 1rem 1.5rem;
-	max-width: 14rem;
+	max-width: 16rem;
+	width: 80%;
 	border: .4rem solid #fafafa;
 	border-radius: 2rem;
 	background-color: #332f2b;
@@ -208,7 +208,7 @@ header a {
 
 	.project {
 		padding: 2rem;
-		max-width: 18rem;
+		width: 18rem;
 	}
 }
 
@@ -280,6 +280,48 @@ header a {
 }
 
 
+/* Projects Hover Behavior
+--------------------------------------------- */
+/* This code triggers the CSS code validator because of a CSS hack, will have to fix later */
+
+
+@media (min-width: 37.5rem) {
+	.project:hover {
+		background-color: #F57E00;
+		border: .4rem solid #F57E00;
+
+		.icon-background {
+			background-color: #332F2B;
+		}
+
+		.icon-country path {
+			fill: #F57E00;
+		}
+
+		.icon-game path {
+			fill: #F57E00;
+		}
+
+		.icon-movie path {
+			fill: #F57E00;
+		}
+
+		.icon-money path {
+			fill: #F57E00;
+		}
+
+		.icon-wp path {
+			fill: #F57E00;
+		}
+
+		.project-title {
+			color: #332F2B;
+			font-weight: 800;
+		}
+	}
+}
+
+
 /* About Me Section
 --------------------------------------------- */
 
@@ -297,7 +339,7 @@ header a {
 	border-radius: 50%;
 	width: 13rem;
 	height: 13rem;
-	border: .4rem solid #00D2FA;
+	border: .4rem solid #F57E00;
 	margin: 2rem auto;
 }
 
@@ -337,7 +379,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	color: #332F2B;
-	background-color: #00D2FA;
+	background-color: #F57E00;
 	height: 4rem;
 }
 
